@@ -3,12 +3,13 @@ import os
 from time import sleep
 from datetime import datetime
 openai.api_key = os.environ['OPENAI_KEY']
-title='Artificial General Intelligence'
+title='Transhumanism'
 u1 = 'AI-1'
 u2 = 'AI-2'
-prompt=f'''The following is a conversation between only two optimistic AIs about {title}
+prompt=f'''The following is a conversation between only two optimistic AIs about {title}.
+
 {u1} : Hai!
-{u2} : Hey! What do you think about {title}?'''
+{u2} : Hey! How do we achieve {title}?'''
 
 def req(prompt,stop):
 
